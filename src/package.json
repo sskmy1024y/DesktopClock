@@ -1,0 +1,15 @@
+{
+    "name": "desktop-clock",
+    "main": "views/main.html",
+    "window": {
+        "show": false,
+        "min_width": 45,
+        "min_height": 10,
+        "width": 450,
+        "height": 100,
+        "toolbar": false,
+        "frame": false,
+        "transparent": true,
+        "always-on-top": true
+    }
+}
