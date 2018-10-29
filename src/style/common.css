@@ -11,6 +11,10 @@ html, body {
   /*-webkit-app-region: drag;*/
 }
 
+.movable {
+  -webkit-app-region: drag;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }

@@ -7,6 +7,14 @@ win.setAlwaysOnTop(true);
 window.moveTo(window.screen.availWidth - appWidth, 0);
 win.show();
 
+document.onkeydown = function(event){
+  if (event.keyCode === 91 || event.keyCode === 17 ) document.body.classList.add('movable');
+}
+
+document.onkeyup = function(event){
+  if (event.keyCode === 91 || event.keyCode === 17 ) document.body.classList.remove('movable');
+}
+
 document.addEventListener('dblclick', function(e){
   win.close();
 });

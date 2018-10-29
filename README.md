@@ -13,4 +13,7 @@ $ cd [package_root]/src
 $ nw run
 ```
 
-ダブルクリックすると消えます(`window.close()`)
+## Option
+
+* ダブルクリックすると消えます(`window.close()`)
+* `Ctrl`or`Command`を押しながらドラッグすると移動できます。
